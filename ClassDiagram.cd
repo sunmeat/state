@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AngerState">
+    <Position X="3" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>AngerState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Father">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABEAAAAAAAABAAAAAAAAAAAAAAAAEAAABAAAAAAA=</HashCode>
+      <FileName>Father.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JoyState">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAACAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>JoyState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NeutralState">
+    <Position X="1" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAQAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>NeutralState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PityState">
+    <Position X="1" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAkAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PityState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StrongAngerState">
+    <Position X="5" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="State" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="1.796" />
+        <Point X="3.75" Y="2.75" />
+        <Point X="4.75" Y="2.75" />
+        <Point X="4.75" Y="4.875" />
+        <Point X="5.75" Y="4.875" />
+        <Point X="5.75" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StrongAngerState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StrongJoyState">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>StrongJoyState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Mark">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Mark.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
